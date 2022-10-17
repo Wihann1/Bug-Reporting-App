@@ -25,7 +25,7 @@ class _LoginSCreenState extends State<LoginSCreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'Hi!',
+                'Hello',
                 style: TextStyle(fontSize: 64),
               ),
               Container(
@@ -43,10 +43,10 @@ class _LoginSCreenState extends State<LoginSCreen> {
           ),
           Card(
             elevation: 4,
-            margin: EdgeInsets.all(20),
+            margin: const EdgeInsets.all(20),
             child: SingleChildScrollView(
               child: Padding(
-                padding: EdgeInsets.all(16),
+                padding: const EdgeInsets.all(16),
                 child: Form(
                   key: _formKey,
                   child: Column(
@@ -56,23 +56,25 @@ class _LoginSCreenState extends State<LoginSCreen> {
                         autocorrect: true,
                         textCapitalization: TextCapitalization.words,
                         enableSuggestions: false,
-                        decoration: InputDecoration(labelText: 'Username'),
+                        decoration:
+                            const InputDecoration(labelText: 'Username'),
                       ),
                       TextFormField(
-                        decoration: InputDecoration(labelText: 'Password'),
+                        decoration:
+                            const InputDecoration(labelText: 'Password'),
                         obscureText: true,
                       ),
-                      SizedBox(height: 12),
+                      const SizedBox(height: 12),
                       SizedBox(
                           width: 100,
                           child: ElevatedButton(
                             onPressed: () {},
-                            child: Text('Login'),
+                            child: const Text('Login'),
                           )),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text(
+                          const Text(
                             'Not Registered yet?',
                             style: TextStyle(fontSize: 8),
                           ),
@@ -80,7 +82,7 @@ class _LoginSCreenState extends State<LoginSCreen> {
                             height: 25,
                             child: TextButton(
                                 onPressed: () {},
-                                child: Text('Create an account',
+                                child: const Text('Create an account',
                                     style: TextStyle(fontSize: 8))),
                           )
                         ],
