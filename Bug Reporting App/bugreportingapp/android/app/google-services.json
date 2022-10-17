@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "384261677983",
+    "project_id": "bug-reporting-app-88479",
+    "storage_bucket": "bug-reporting-app-88479.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384261677983:android:548973e36420c1c8d913aa",
+        "android_client_info": {
+          "package_name": "com.jwvdm.bugreportingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384261677983-pchrphmvcf344qvng68hsitpuf4p0h15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxFbogzAa8vctH7n2c20Jp6OIk9yM8p-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384261677983-pchrphmvcf344qvng68hsitpuf4p0h15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
